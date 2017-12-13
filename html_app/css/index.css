@@ -1,32 +1,30 @@
 @import url("fonts.css");
-.main {
+.grid {
   margin: auto;
   max-width: 1128px;
 }
 
 @media (max-width: 1170px) {
-  .main {
+  .grid {
     max-width: 840px;
   }
 }
 
 @media (max-width: 870px) {
-  .main {
+  .grid {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 
 .navbar {
-  display: flex;
   min-height: 50px;
   overflow: hidden;
   background: #141414;
-  padding: 10px 80px;
+  padding: 10px 0;
 }
 
 .navbar__search {
-  width: 100%;
   padding: 10px 0;
 }
 
