@@ -1,4 +1,22 @@
 @import url("fonts.css");
+.main {
+  margin: auto;
+  max-width: 1128px;
+}
+
+@media (max-width: 1170px) {
+  .main {
+    max-width: 840px;
+  }
+}
+
+@media (max-width: 870px) {
+  .main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .navbar {
   display: flex;
   min-height: 50px;
@@ -35,7 +53,6 @@ i.navbar__search__header__icon {
   border: none;
   border-bottom: 2px solid #2a2a2a;
   border-radius: 0;
-  moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: 25px;

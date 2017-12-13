@@ -1,0 +1,75 @@
+@import url('fonts.css');
+
+.main {
+    margin: auto; 
+    max-width: 1128px; 
+} 
+
+@media (max-width: 1170px) { 
+    .main { 
+        max-width: 840px; 
+    } 
+} 
+
+@media (max-width: 870px) { 
+    .main { 
+        padding-left: 20px; 
+        padding-right: 20px; 
+    } 
+}
+
+.navbar {
+    display: flex;
+    min-height: 50px;
+    overflow: hidden;
+    background: rgb(20, 20, 20);
+    padding: 10px 80px;
+}
+
+.navbar__search {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.navbar__search__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2.navbar__search__header__title-logo {
+    font-family: 'Roboto-Bold', sans-serif;
+    color: white;
+    margin-bottom: 0;
+}
+
+i.navbar__search__header__icon {
+    font-size: 32px;
+    color: rgb(121, 121, 121);
+}
+
+.navbar__search__input input {
+    transition: 0.2s;
+    font-size: 12px;
+    border: none;
+    border-bottom: 2px solid rgb(42, 42, 42);
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 25px;
+    padding: 0;
+    line-height: 20px;
+    margin-top: -10px;
+    background: transparent;
+    color: rgb(180, 180, 180);
+}
+
+.navbar__search__input input:focus {
+    margin-top: 0;
+    outline: 0 none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #2B4162;
+    color: white;
+    font-size: 14px;
+}
