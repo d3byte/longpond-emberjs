@@ -75,7 +75,6 @@ i.navbar__search__header__icon {
 .navbar__menu__left {
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
     overflow-x: scroll;
     flex: 0.9;
     min-height: 10px;
@@ -90,18 +89,8 @@ i.navbar__search__header__icon {
     padding: 10px 0 10px 20px;
 }
 
-.navbar__menu__extended {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
 .navbar__menu__item {
-    height: 60px;
     padding: 0 20px;
-    margin-bottom: 10px;
     margin-right: 10px;
 }
 
@@ -169,12 +158,4 @@ a.navbar__humburger__close {
 
 a.navbar__humburger__close i {
     font-size: 14px;
-}
-
-.navbar__menu__extended .navbar__menu__item {
-    flex: 0.25;
-}
-
-.no-padding-left {
-    padding-left: 0;
 }
