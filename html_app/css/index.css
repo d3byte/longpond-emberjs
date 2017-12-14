@@ -4,19 +4,6 @@
   max-width: 1128px;
 }
 
-@media (max-width: 1170px) {
-  .grid {
-    max-width: 840px;
-  }
-}
-
-@media (max-width: 870px) {
-  .grid {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
 .navbar {
   min-height: 50px;
   overflow: hidden;
@@ -100,12 +87,14 @@ i.navbar__search__header__icon {
   padding: 0 20px;
 }
 
+.navbar__humburger__menu__item a,
 .navbar__menu__item a {
   transition: 0.2s;
   color: #74dfd0;
   text-decoration: none;
 }
 
+.navbar__humburger__menu__item a:hover,
 .navbar__menu__item a:hover {
   cursor: pointer;
   color: white;
@@ -120,6 +109,47 @@ i.navbar__search__header__icon {
   margin: 0;
   width: 100%;
   text-align: right;
+}
+
+a.navbar__humburger__toggle,
+a.navbar__humburger__close {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75px;
+  color: #74dfd0;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a.navbar__humburger__toggle:hover,
+a.navbar__humburger__close:hover {
+  color: white;
+}
+
+.navbar__humburger__menu {
+  width: 100%;
+}
+
+.navbar__humburger__menu__item {
+  padding: 10px;
+}
+
+.navbar__humburger__menu__item a {
+  color: #32af9f;
+  font-size: 12px;
+}
+
+a.navbar__humburger__close {
+  width: 100%;
+  padding: 0 10px;
+  justify-content: flex-start;
+  font-size: 12px;
+  color: #19433d;
+}
+
+a.navbar__humburger__close i {
+  font-size: 14px;
 }
  
 

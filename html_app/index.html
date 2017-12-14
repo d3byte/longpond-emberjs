@@ -4,6 +4,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="css/kube.css">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/media.css">
     </head>
     <body>
         <header class="navbar">
@@ -40,14 +41,65 @@
                             <a href="">Меню</a>
                         </div>
                     </div>
+
                 </div>
-                <div class="navbar__humburger">
+                <div class="navbar__humburger" data-component="collapse">
+                    <a class="navbar__humburger__toggle collapse-toggle" href="#menu-humburger">
+                        <i class="material-icons">&#xE896;</i>
+                        <span>Меню</span>
+                    </a>
+                    <div class="navbar__humburger__menu collapse-box hide" id="menu-humburger">
+                        <div class="navbar__humburger__menu__item">
+                            <a href="">Новости</a>
+                        </div>
+                        <div class="navbar__humburger__menu__item">
+                            <a href="">Физическая культура и спорт</a>
+                        </div>
+                        <div class="navbar__humburger__menu__item">
+                            <a href="">Фестивали и конкурсы</a>
+                        </div>
+                        <div class="navbar__humburger__menu__item">
+                            <a href="">Городские программы</a>
+                        </div>
+                        <div class="navbar__humburger__menu__item">
+                            <a href="">Культура</a>
+                        </div>
+                        <div class="navbar__humburger__menu__item">
+                            <a href="">Культурная политика</a>
+                        </div>
+                        <div class="navbar__humburger__menu__item">
+                            <a href="">Молодёжная политика</a>
+                        </div>
+                        <div class="navbar__humburger__menu__item">
+                            <a href="">Туризм</a>
+                        </div>
+                        <div class="navbar__humburger__menu__item">
+                            <a href="">Интернет-приёмная</a>
+                        </div>
+                        <div class="navbar__humburger__menu__item">
+                            <a href="">Подведомственные учреждения</a>
+                        </div>
+                        <div class="navbar__humburger__menu__item">
+                            <a href="">Экономика. Право</a>
+                        </div>
+                        <div class="navbar__humburger__menu__item">
+                            <a href="">Информационно-аналитический центр</a>
+                        </div>
+                        <div class="navbar__humburger__menu__item">
+                            <a href="">Ссылки</a>
+                        </div>
+                        <a class="navbar__humburger__close collapse-toggle" href="#menu-humburger">
+                            <i class="material-icons">&#xE5CD;</i>
+                            <span>Закрыть</span>
+                        </a>
+                    </div>
 
                 </div>
             </div>
 
         </header>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="js/kube.min.js"></script>
     </body>
 </html>
