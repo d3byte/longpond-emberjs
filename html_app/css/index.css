@@ -60,6 +60,7 @@ i.navbar__search__header__icon {
 
 .navbar__menu {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   font-family: 'Roboto', sans-serif;
@@ -71,7 +72,7 @@ i.navbar__search__header__icon {
   display: flex;
   align-items: center;
   flex: 0.8;
-  height: 50px;
+  min-height: 10px;
   padding: 10px 0;
 }
 
@@ -83,8 +84,19 @@ i.navbar__search__header__icon {
   padding: 10px 0 10px 20px;
 }
 
+.navbar__menu__extended {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .navbar__menu__item {
+  height: 60px;
   padding: 0 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 .navbar__humburger__menu__item a,
@@ -143,13 +155,21 @@ a.navbar__humburger__close:hover {
 a.navbar__humburger__close {
   width: 100%;
   padding: 0 10px;
-  justify-content: flex-start;
+  justify-content: center;
   font-size: 12px;
   color: #19433d;
 }
 
 a.navbar__humburger__close i {
   font-size: 14px;
+}
+
+.navbar__menu__extended .navbar__menu__item {
+  flex: 0.25;
+}
+
+.no-padding-left {
+  padding-left: 0;
 }
  
 
