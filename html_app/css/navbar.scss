@@ -75,10 +75,12 @@ i.navbar__search__header__icon {
 .navbar__menu__left {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     overflow-x: scroll;
     flex: 0.9;
     min-height: 10px;
     padding: 10px 0;
+    word-break: keep-all;
 }
 
 .navbar__menu__right {

@@ -1,0 +1,161 @@
+@import url("fonts.css");
+.grid {
+  margin: auto;
+  max-width: 1128px;
+}
+
+.navbar {
+  min-height: 50px;
+  overflow: hidden;
+  background: #141414;
+  padding: 10px 0;
+}
+
+.navbar__search {
+  padding: 10px 0;
+}
+
+.navbar__search__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2.navbar__search__header__title-logo {
+  font-family: 'Roboto-Bold', sans-serif;
+  color: white;
+  margin-bottom: 0;
+}
+
+i.navbar__search__header__icon {
+  font-size: 32px;
+  color: #797979;
+}
+
+.navbar__search__input input {
+  transition: 0.2s;
+  font-size: 12px;
+  border: none;
+  border-bottom: 2px solid #2a2a2a;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 25px;
+  padding: 0;
+  line-height: 20px;
+  margin-top: -10px;
+  background: transparent;
+  color: #b4b4b4;
+}
+
+.navbar__search__input input:focus {
+  margin-top: 5px;
+  outline: 0 none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 2px solid #2B4162;
+  color: white;
+  font-size: 14px;
+}
+
+.navbar__menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.navbar__menu__left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  flex: 0.9;
+  min-height: 10px;
+  padding: 10px 0;
+  word-break: keep-all;
+}
+
+.navbar__menu__right {
+  display: flex;
+  align-items: center;
+  flex: 0.1;
+  height: 50px;
+  padding: 10px 0 10px 20px;
+}
+
+.navbar__menu__item {
+  padding: 0 20px;
+  margin-right: 10px;
+}
+
+.navbar__humburger__menu__item a,
+.navbar__menu__item a {
+  transition: 0.2s;
+  color: #74dfd0;
+  text-decoration: none;
+}
+
+.navbar__humburger__menu__item a:hover,
+.navbar__menu__item a:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.navbar__menu__item:first-of-type {
+  padding-left: 0;
+}
+
+.navbar__menu__right .navbar__menu__item {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: right;
+}
+
+a.navbar__humburger__toggle,
+a.navbar__humburger__close {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75px;
+  color: #74dfd0;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a.navbar__humburger__toggle:hover,
+a.navbar__humburger__close:hover {
+  color: white;
+}
+
+.navbar__humburger__menu {
+  width: 100%;
+}
+
+.navbar__humburger__menu__item {
+  padding: 10px;
+}
+
+.navbar__humburger__menu__item a {
+  color: #32af9f;
+  font-size: 12px;
+}
+
+a.navbar__humburger__close {
+  width: 100%;
+  padding: 0 10px;
+  justify-content: center;
+  font-size: 12px;
+  color: #19433d;
+}
+
+a.navbar__humburger__close i {
+  font-size: 14px;
+}
+ 
+
+ /*# sourceMappingURL= navbar.css.map */
