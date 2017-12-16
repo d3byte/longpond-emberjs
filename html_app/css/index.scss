@@ -1,18 +1,25 @@
 @import url("fonts.css");
-.main__image_parallax {
+
+$turquoise: rgb(116, 223, 208);
+
+.main__image_parallax { 
   /* The image used */
   background-image: url("../img/christmas.jpg");
+
   /* Set a specific height */
-  height: 900px;
+  height: 900px; 
+
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding: 50px;
+  // padding-bottom: 250px;
 }
 
 h1.main__text_header {
@@ -21,17 +28,15 @@ h1.main__text_header {
 }
 
 a.main__text_link {
-  text-decoration-color: #74dfd0 !important;
-  text-decoration: none;
-  border-bottom: 1px solid #74dfd0;
-  color: white;
-  font-family: 'Roboto-Light';
-  font-size: 15px;
+    text-decoration-color: $turquoise !important; 
+    text-decoration: none;
+    border-bottom: 1px solid $turquoise;
+    color: white;
+    font-family: 'Roboto-Light';
+    font-size: 15px;
 }
 
 a.main__text_link:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
- 
 
- /*# sourceMappingURL= index.css.map */
