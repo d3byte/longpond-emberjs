@@ -83,6 +83,12 @@ p.main__news-bar_text {
   padding: 20px;
 }
 
+.main__card-block_card-container-small {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
 .main__card-block_card-image {
   display: flex;
   align-items: flex-end;

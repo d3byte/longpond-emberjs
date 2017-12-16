@@ -94,6 +94,12 @@ p.main__news-bar_text {
     padding: 20px;
 }
 
+.main__card-block_card-container-small {
+  padding: 20px;
+  display:flex;
+  align-items: center;
+}
+
 .main__card-block_card-image {
     display: flex;
     align-items: flex-end;
@@ -150,6 +156,7 @@ p.main__news-bar_text {
   padding-left: 20px;
 }
 
+
 .main__card-block_card-body {
     font-family: 'Roboto-Light';
     font-size: 15px;
@@ -160,9 +167,3 @@ p.main__news-bar_text {
     color: $turquoise;
     font-family: 'Roboto-Medium';
 }
-
-// .main__card-block_thumbnail-card {
-//   width: 340px;
-//   height: 386px;
-//   background-image: url("http://placehold.it/340x386");
-// }
