@@ -67,7 +67,7 @@ p.main__news-bar_text {
 }
 
 .main__card-block {
-  margin-top: -50px;
+  margin-top: -100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +98,26 @@ p.main__news-bar_text {
   font-size: 12px;
 }
 
+.main__card-block_full-card-date {
+  padding-bottom: 10px;
+  padding-left: 20px;
+  position: absolute;
+  color: white !important;
+  font-family: 'Roboto-Light';
+  font-size: 12px;
+}
+
 .main__card-block_card-category {
+  margin-left: 260px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  position: absolute;
+  color: #74dfd0;
+  font-family: 'Roboto-Light';
+  font-size: 13px;
+}
+
+.main__card-block_full-card-category {
   margin-left: 260px;
   padding-bottom: 10px;
   padding-right: 20px;

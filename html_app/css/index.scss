@@ -78,7 +78,7 @@ p.main__news-bar_text {
 }
 
 .main__card-block {
-    margin-top: -50px; // padding-bottom: 50px;
+    margin-top: -100px; // padding-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,6 +109,15 @@ p.main__news-bar_text {
     font-size: 12px;
 }
 
+.main__card-block_full-card-date {
+  padding-bottom: 10px;
+  padding-left: 20px;
+  position: absolute;
+  color: white !important;
+  font-family: 'Roboto-Light';
+  font-size: 12px;
+}
+
 .main__card-block_card-category {
     margin-left: 260px;
     padding-bottom: 10px;
@@ -117,6 +126,16 @@ p.main__news-bar_text {
     color: $turquoise;
     font-family: 'Roboto-Light';
     font-size: 13px;
+}
+
+.main__card-block_full-card-category {
+  margin-left: 260px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  position: absolute;
+  color: $turquoise;
+  font-family: 'Roboto-Light';
+  font-size: 13px;
 }
 
 .main__card-block_card-header {
@@ -133,3 +152,9 @@ p.main__news-bar_text {
     color: $turquoise;
     font-family: 'Roboto-Medium';
 }
+
+// .main__card-block_thumbnail-card {
+//   width: 340px;
+//   height: 386px;
+//   background-image: url("http://placehold.it/340x386");
+// }
