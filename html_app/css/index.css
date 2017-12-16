@@ -50,7 +50,10 @@ a.main__text_link:hover {
   width: 25%;
   display: flex;
   align-items: center;
-  border-bottom: 20px #74dfd0;
+}
+
+.main__news-bar_block:last-of-type {
+  padding-left: 10px;
 }
 
 p.main__news-bar_text {
