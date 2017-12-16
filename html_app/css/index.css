@@ -113,6 +113,8 @@ p.main__news-bar_text {
 }
 
 .main__card-block_card-body {
+  font-family: 'Roboto-Light';
+  font-size: 15px;
   max-width: 300px;
 }
 
