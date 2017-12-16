@@ -1,5 +1,9 @@
 @import url("fonts.css");
-.main__image_parallax {
+.grid {
+  margin: auto;
+}
+
+.main__image {
   /* The image used */
   background-image: url("../img/christmas.jpg");
   /* Set a specific height */
@@ -31,6 +35,33 @@ a.main__text_link {
 
 a.main__text_link:hover {
   cursor: pointer;
+}
+
+.main__news-bar {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin-top: 70px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main__news-bar_block {
+  padding: 20px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  border-bottom: 20px #74dfd0;
+}
+
+p.main__news-bar_text {
+  padding-left: 20px;
+  display: inline-block;
+  color: white !important;
+  font-family: 'Roboto-Italic';
+}
+
+.main__news-bar_img {
+  display: inline-block;
 }
  
 
