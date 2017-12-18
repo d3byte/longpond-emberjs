@@ -3,7 +3,13 @@
         max-width: 1500px; 
     }
     .cards-row {
-        max-width: 1200px;
+        max-width: 1080px;
+    } 
+} 
+
+@media (min-width: 1170px) { 
+    .cards-row {
+        max-width: 1080px;
     } 
 } 
 
@@ -13,7 +19,7 @@
         max-width: 840px; 
     }
     .cards-row {
-        max-width: 900px;
+        max-width: 720px;
     }
     .main__card-block{
         margin-top: -50px;
