@@ -1,6 +1,7 @@
 @import url("fonts.css");
 .grid {
   margin: auto;
+  max-width: 1128px;
 }
 
 .main__image {

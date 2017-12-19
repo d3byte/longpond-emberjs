@@ -1,6 +1,7 @@
 @import url('fonts.css');
 
 $turquoise: rgb(116, 223, 208);
+$black: rgb(20, 20, 20);
 $card-shadow: 0 4px 13px 1px rgba(0, 0, 0, 0.09);
 
 .grid {
@@ -11,7 +12,7 @@ $card-shadow: 0 4px 13px 1px rgba(0, 0, 0, 0.09);
 .navbar {
     min-height: 50px;
     overflow: hidden;
-    background: rgb(20, 20, 20);
+    background: $black;
     padding: 10px 0;
 }
 
