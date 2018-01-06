@@ -88,6 +88,13 @@ span.footer__about_row-authors {
 a.footer__about_row-authors {
   font-family: 'Roboto-Light', sans-serif;
   color: #74dfd0;
+  text-decoration: none;
+  transition: border 500ms ease;
+  border-bottom: 1px solid rgba(116, 223, 208, 0);
+}
+
+a.footer__about_row-authors:hover {
+  border-bottom: 2px solid #74dfd0;
 }
  
 
