@@ -4,6 +4,10 @@
   max-width: 1128px;
 }
 
+.main__content {
+  margin-bottom: 300px;
+}
+
 .main__image {
   background-image: url("../img/christmas.jpg");
   height: 900px;
@@ -17,7 +21,7 @@
   padding: 50px;
 }
 
-h1.main__text_header {
+h1.main__text_header.title {
   font-family: 'PlayFairDisplay-Regular';
   color: white;
   padding-bottom: 30px;
@@ -157,4 +161,6 @@ p.main__news-bar_text {
   color: #74dfd0;
   font-family: 'Roboto-Medium';
 }
-/*# sourceMappingURL=index.css.map */
+ 
+
+ /*# sourceMappingURL= index.css.map */
