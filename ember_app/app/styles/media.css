@@ -50,6 +50,9 @@
     .main__news-bar_block:nth-last-of-type(2) {
         display:none;
     }
+    .footer__menu__block_row {
+        max-width: 250px;
+      }
 }
 
 @media (max-width: 768px) {
@@ -74,10 +77,20 @@
     .navbar {
         background: #1e1e1e;
     }
+    h1.main__text_header.title {
+        font-size: 35px;
+        letter-spacing: -2px;
+    }
 }
 
 @media (min-width: 649px) {
     .navbar__humburger {
         display: none;   
+    }
+}
+
+@media (min-width: 375px) {
+    .main__image {
+        padding: 0px 0px 50px 0px;
     }
 }

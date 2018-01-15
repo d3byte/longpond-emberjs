@@ -40,10 +40,6 @@ p.footer__main_subtitle-text {
   display: inline-flex;
 }
 
-.footer__menu__block_row {
-  min-width: 250px;
-}
-
 .footer__menu {
   min-width: 100px;
 }
