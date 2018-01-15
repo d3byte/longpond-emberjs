@@ -38,6 +38,7 @@ p.footer__main_subtitle-text {
 
 .footer__menu__block {
   display: inline-flex;
+  min-width: 150px;
 }
 
 .footer__menu {
@@ -91,6 +92,10 @@ a.footer__about_row-authors {
 
 a.footer__about_row-authors:hover {
   border-bottom: 2px solid #74dfd0;
+}
+
+.footer__menu__block_row-mobile.row {
+  display: none;
 }
  
 
